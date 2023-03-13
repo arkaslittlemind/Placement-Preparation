@@ -10,6 +10,7 @@ class Solution{
 	void leftRotate(int arr[], int k, int n) 
 	{ 
 	   // Your code goes here
+       //OPTIMIZED APPROACH//
 	   k = k % n;
 	   reverse(arr, arr + k);
 	   reverse(arr + k, arr + n);

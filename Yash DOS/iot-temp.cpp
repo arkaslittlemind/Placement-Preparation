@@ -1,6 +1,4 @@
 #include "arduino_secrets.h"
-/
-
 #include "thingProperties.h"
 #include "DHT.h"
 #define DHTpin 2 // D4 on the nodemcu ESP8266

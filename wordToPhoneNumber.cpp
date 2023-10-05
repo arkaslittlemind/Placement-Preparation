@@ -30,12 +30,12 @@ string wordToPhoneNumber(string& input) {
 
         // Handle repeating digits
         if (i > 0 && word == "double") {
-            result += result.back();
+            //result += result.back();
+            result += result + wordToDigit[words[i+1]] + wordToDigit[words[i+1]];
         } else if (i > 0 && word == "triple") {
-            result += result.back();
-            result += result.back();
+            result += result + wordToDigit[words[i+1]] + wordToDigit[words[i+1]] + wordToDigit[words[i+1]];
         } else {
-            result += digit;
+            result += wordToDigit[word];
         }
     }
 
@@ -45,7 +45,7 @@ string wordToPhoneNumber(string& input) {
 int main() {
     string input = "five eight double two double two four eight five six";
     string output = wordToPhoneNumber(input);
-    cout << output << endl; // Output: 6483
+    cout << output << endl; 
 
     return 0;
 }

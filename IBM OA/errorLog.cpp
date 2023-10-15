@@ -30,7 +30,8 @@ int countFaults(int n, vector<string> logs) {
 
 int main() {
     int n = 5;
-    vector<string> logs = {"s1 error", "s2 error", "s1 error", "s4 success", "s5 error", "s3 success", "s1 error"};
+    //int m = 6;
+    vector<string> logs = {"s2 error", "s2 error", "s3 error", "s2 error", "s3 error", "s3 error"};
 
     int result = countFaults(n, logs);
 

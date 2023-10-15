@@ -1,38 +1,40 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
+#include <bits/stdc++.h>
 using namespace std;
 
-int countFaults(int n, int m, vector<string> logs) {
+int countFaults(int n, vector<string> logs) {
     unordered_map<string, int> errorCount;
-    unordered_map<string, bool> serverReplaced;
+    unordered_map<string, bool> faultyServer;
     int replacements = 0;
 
-    for (int i = 0; i < m; i++) {
-        string serverId = logs[i].substr(0, 2);  // Extract the server ID
-        string status = logs[i].substr(3);  // Extract the status (success/error)
+    for (string log : logs) {
+        string serverId = log.substr(0, 2);
+        string status = log.substr(3);
 
         if (status == "error") {
             errorCount[serverId]++;
-            if (errorCount[serverId] == 3 && !serverReplaced[serverId]) {
-                serverReplaced[serverId] = true;
-                replacements++;
+            if (errorCount[serverId] == 3) {
+                errorCount[serverId] = 0;
+                if (!faultyServer[serverId]) {
+                    replacements++;
+                    faultyServer[serverId] = true;
+                }
             }
         } else {
-            errorCount[serverId] = 0;  // Reset the error count if it's a success log
+            errorCount[serverId] = 0;
+            faultyServer[serverId] = false;
         }
     }
+
     return replacements;
 }
 
 int main() {
     int n = 5;
-    int m = 6;
-    vector<string> logs = {"s2 error", "s2 error", "s3 error", "s2 error", "s3 error", "s3 error"};
-    
-    int result = countFaults(n, m, logs);
-    
+    vector<string> logs = {"s1 error", "s2 error", "s1 error", "s4 success", "s5 error", "s3 success", "s1 error"};
+
+    int result = countFaults(n, logs);
+
     cout << "Number of server replacements: " << result << endl;
-    
+
     return 0;
 }

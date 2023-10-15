@@ -22,7 +22,6 @@ int countFaults(int n, int m, vector<string> logs) {
             errorCount[serverId] = 0;  // Reset the error count if it's a success log
         }
     }
-
     return replacements;
 }
 

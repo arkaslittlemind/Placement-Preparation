@@ -1,5 +1,5 @@
 int lowerBound(vector<int> arr, int n, int x) {
-	// Write your code herei
+	// Write your code here
 	int low = 0, high = n - 1;
 	long long ans = n;
 

@@ -5,5 +5,8 @@
         "iostream": "cpp",
         "vector": "cpp",
         "chrono": "cpp"
-    }
+    },
+    "cSpell.words": [
+        "realsize"
+    ]
 }

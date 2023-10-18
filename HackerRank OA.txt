@@ -1,0 +1,16 @@
+When we share our phone numbers with others, we share the numbers digit by digit.
+Given a phone number in words, convert the number to digits.
+For example, convert "six four eight three" to "6483".
+1. All phone numbers will be 10 digits.
+2. Two repeating digits will be shortened using the word "double". Three repeating digits will be shortened using the word "triple". If the digits repeat four or more times, they will be shortened using "double" and "triple" multiple times (see example four).
+3. The input will be always valid. For example, we won't have a scenario like "double double two". The valid case will be "double two double two"
+4. The entire input will be in lowercase
+Example 1:
+Input: "two one nine six eight one six four six zero" Output: "2196816460"
+Example 2:
+Input: "five one zero two four eight zero double three two"
+Output: "5102480332"
+
+
+
+!!July to December for Summer Interns!!

@@ -9,13 +9,22 @@ mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
 
 bool isPossible(vector<int> &chocolates, int n, int k) {
     int sum = 0;
+    //sort(chocolates.begin(), chocolates.end());
+
     for(int i = 0; i < n; i++) {
         sum += chocolates[i];
     }
-    if(sum / n >= 1 && sum / n <= k) {
-        return true;
+
+    if(sum < n) {
+        return false;
+    } else {
+        int rem = sum % n;
+        if(k == 0 && rem != 0) {
+            return false;
+        } else {
+            return true;
+        }
     }
-    return false;
 }
 
 
@@ -24,17 +33,18 @@ void Solve() {
     cin >> n >> k;
 
     vector<int> chocolates(n);
-    int sum = 0;
-    for(int i = 0; i < n; i++) {
+    //int sum = 0;
+    for (int i = 0; i < n; i++) {
         cin >> chocolates[i];
+        //sum += chocolates[i];
     }
     int ans = isPossible(chocolates, n, k);
-    if(ans) {
+    if (ans) {
         cout << "yes" << endl;
     } else {
         cout << "no" << endl;
     }
-    
+
 }
 
 

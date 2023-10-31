@@ -1,0 +1,20 @@
+Given a set of n distinct points on the x-axis, choose k of them such that the minimum distance between any two chosen points is as large as possible. Find this maximum possible minimum distance.
+
+Example
+Consider n = 5, k = 3 and x = [1, 4, 2, 9, 8]
+
+The optimal solution, one of the possible selection of points is [1, 4, 8]. Here,
+
+The distance between 1 and 4 = abs(1 - 4) = 3
+The distance between 1 and 8 = abs(1 - 8) = 7
+The distance between 4 and 8 = abs(4 - 8) = 4
+
+The minimum among them is 3, which is the maximum possible.
+
+Function description:
+maximizeMinimumDistance has the following parameters:
+int x[n]: the x-coordinate of points
+int k: the number of points to choose
+
+Returns:
+int: the maximum possible minimum distance between any 2 of the chosen points.

@@ -8,12 +8,8 @@ using namespace std;
 mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
 
 long long helper(long long n, long long m, long long x, long long y) {
-    int maxPossible = 0;
-	ans = max(maxPossible,(x-1)*m);
-	ans = max(maxPossible,(y-1)*n);
-	ans = max(maxPossible,(n-x)*m);
-	ans = max(maxPossible,(m-y)*n);
-	cout<< ans << endl;
+    long long answer = max({(x - 1) * m,(m - y) * n,(n - x) * m,(y - 1) * n});
+    return answer;
 }
 
 void Solve() {

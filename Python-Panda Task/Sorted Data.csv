@@ -1,0 +1,79 @@
+MALIGNANCY,CT TYPE,,,,,
+OVARY,Neo-Adjuvant,,,,,Number
+OVARY,Neo-Adjuvant,,,Breast,Adjuvant,10
+SEX CORD STROMAL,Adjuvant,,,,Neo-Adjuvant,20
+BREAST,Neo-Adjuvant,,,Ovary,Adjuvant,2
+BREAST,Neo-Adjuvant,,,,Neo-Adjuvant,14
+VAGINAL VAULT,Adjuvant,,,Tongue,Adjuvant,0
+BREAST,Adjuvant,,,,Neo-Adjuvant,16
+BREAST,Neo-Adjuvant,,,Pyriform fossa,Adjuvant,6
+ENDOMETRIUM,Adjuvant,,,,Neo-Adjuvant,0
+BREAST,Neo-Adjuvant,,,Vaginal vault,Adjuvant,4
+ENDOMETRIUM,Adjuvant,,,,Neo-Adjuvant,0
+OVARY,Neo-Adjuvant,,,Cervix,Adjuvant,0
+CERVIX,Neo-Adjuvant,,,,Neo-Adjuvant,4
+TONGUE,Neo-Adjuvant,,,Endometrium,Adjuvant,3
+PYRIFORM FOSSA,Adjuvant,,,,Neo-Adjuvant,0
+BREAST,Adjuvant,,,Glioma,Adjuvant,3
+BREAST,Neo-Adjuvant,,,,Neo-Adjuvant,0
+BREAST,Neo-Adjuvant,,,Hypopharynx,Adjuvant,0
+GLIOMA,Adjuvant,,,,Neo-Adjuvant,3
+BREAST,Neo-Adjuvant,,,Tonsil,Adjuvant,2
+BREAST,Neo-Adjuvant,,,,Neo-Adjuvant,0
+TONGUE,Neo-Adjuvant,,,Sex cord stromal,Adjuvant,1
+OVARY,Neo-Adjuvant,,,,Neo-Adjuvant,0
+BREAST,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+OVARY,Adjuvant,,,,,
+HYPOPHARYNX,Neo-Adjuvant,,,,,
+PYRIFORM FOSSA,Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+BREAST,Adjuvant,,,,,
+BREAST,Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+VAGINAL VAULT,Adjuvant,,,,,
+TONSIL,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+CERVIX,Neo-Adjuvant,,,,,
+GLIOMA,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+TONGUE,Neo-Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+BREAST,Adjuvant,,,,,
+PYRIFORM FOSSA,Adjuvant,,,,,
+TONGUE,Neo-Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+OVARY,Adjuvant,,,,,
+HYPOPHARYNX,Neo-Adjuvant,,,,,
+PYRIFORM FOSSA,Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+BREAST,Adjuvant,,,,,
+BREAST,Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+VAGINAL VAULT,Adjuvant,,,,,
+TONSIL,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+TONGUE,Neo-Adjuvant,,,,,
+CERVIX,Neo-Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+GLIOMA,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+VAGINAL VAULT,Adjuvant,,,,,
+BREAST,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+ENDOMETRIUM,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+PYRIFORM FOSSA,Adjuvant,,,,,
+OVARY,Neo-Adjuvant,,,,,
+CERVIX,Neo-Adjuvant,,,,,
+TONGUE,Neo-Adjuvant,,,,,
+PYRIFORM FOSSA,Adjuvant,,,,,
+BREAST,Adjuvant,,,,,
+BREAST,Neo-Adjuvant,,,,,
+HYPOPHARYNX,Neo-Adjuvant,,,,,

@@ -1,6 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * Checks if a given matrix is a Toeplitz matrix.
+ * A Toeplitz matrix is a matrix in which each descending diagonal from left to right is constant.
+ *
+ * @param matrix The matrix to be checked.
+ * @return True if the matrix is a Toeplitz matrix, false otherwise.
+ */
 bool isToeplitz(const vector<vector<int>>& matrix) {
     int rows = matrix.size();
     int cols = matrix[0].size();
